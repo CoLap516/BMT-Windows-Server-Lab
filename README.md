@@ -6,13 +6,22 @@ A home lab simulating the IT infrastructure of a fictional company called Blue M
 
 ## Environment
 
-- Windows Server 2022
-- Windows 11
-- VirtualBox
-- Active Directory
+- Windows Server 2022 Domain Controller
+- Windows 11 Workstation
+- Oracle VirtualBox
+- Active Directory Domain Services
 - DNS/DHCP
 - Group Policy
 - SMB File Sharing
+
+## Implemented
+
+- Created Active Directory OUs for Finance and HR departments
+- Created user accounts and security groups
+- Configured Group Policy Objects to implement security settings and automatic drive mapping
+- Created SMB file shares based on the departments
+- Configured NTFS and share permissions
+- Tested access control between departments
 
 ## Active Directory
 
