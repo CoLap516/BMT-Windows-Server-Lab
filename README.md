@@ -2,7 +2,7 @@
 
 ## Overview
 
-A home lab simulating the IT infrastructure of a fictional company called Blue Mountain Technologies. The lab is configured with a virtualized domain controller, Active Directory, organizational units, multiple user accounts, security groups, Group Policy configurations, and drive mapped department-based file shares.
+A home lab simulating the IT infrastructure of a fictional company called Blue Mountain Technologies. The lab is configured with a virtualized domain controller, Active Directory, organizational units, multiple user accounts, security groups, Group Policy configurations, and department based drive mapping and file shares.
 
 ## Environment
 
@@ -25,7 +25,7 @@ A home lab simulating the IT infrastructure of a fictional company called Blue M
 
 ## Active Directory
 
-Configured Active Directory complete with OUs for User and Computer Departments and Security Groups.
+Configured Active Directory complete with OUs for User and Computer OUs and Security Groups.
 <img width="1390" height="1069" alt="AD Finance Users OU" src="https://github.com/user-attachments/assets/786b757b-085c-4fe5-8f34-30013a30d938" />
 <img width="1390" height="1071" alt="AD HR Workstations OU" src="https://github.com/user-attachments/assets/018c912e-9b62-4e61-9e10-81958a25ab70" />
 <img width="1394" height="1070" alt="AD Security Groups" src="https://github.com/user-attachments/assets/9c006634-b5ed-4d65-b375-cc641c0f3150" />
@@ -39,7 +39,7 @@ Created and configured department specific policies and applied them to the prop
 
 ## File Shares
 
-Configured accurate drive mapping to automatically map drives to the correct users. Mapped the H: drive to the HR users and the F: Drive to the Finance users.
+Configured automated drive mapping to automatically map drives to the correct users. Mapped the H: drive to the HR users and the F: Drive to the Finance users.
 <img width="1395" height="1070" alt="SMB Shares and File Paths" src="https://github.com/user-attachments/assets/fa0edfda-b817-4a5b-aa08-0974d073c073" />
 
 ## Access Control Testing
@@ -48,7 +48,7 @@ HR users successfully accessed HR files and Finance users were denied access.
 <img width="1020" height="847" alt="HR files accessed by HR User" src="https://github.com/user-attachments/assets/9bb11feb-974a-4710-baad-50cba16422b9" />
 <img width="1022" height="846" alt="HR Folder Access Denied to Finance User" src="https://github.com/user-attachments/assets/5b26c633-93e3-44f0-acfd-e0e3ea6ae34b" />
 
-Finance users successfully accessed Finance Files while HR users were denied access.
+Finance users successfully accessed Finance files while HR users were denied access.
 <img width="1021" height="848" alt="Finance Files Accessed by Finance User" src="https://github.com/user-attachments/assets/1d832de9-f47b-48d1-b3e8-3a4c55d794fa" />
 <img width="1019" height="847" alt="Access to Finance Files Denied" src="https://github.com/user-attachments/assets/ea76a690-65f1-4ddc-9fce-60a1d4415d01" />
 
