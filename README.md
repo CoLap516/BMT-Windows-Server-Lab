@@ -6,13 +6,13 @@ A home lab simulating the IT infrastructure of a fictional company called Blue M
 
 ## Environment
 
--Windows Server 22
--Windows 11
--VirtualBox
--Active Directory
--DNS/DHCP
--Group Policy
--SMB File Sharing
+- Windows Server 22
+- Windows 11
+- VirtualBox
+- Active Directory
+- DNS/DHCP
+- Group Policy
+- SMB File Sharing
 
 ## Active Directory
 
