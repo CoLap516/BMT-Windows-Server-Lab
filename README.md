@@ -6,7 +6,7 @@ A home lab simulating the IT infrastructure of a fictional company called Blue M
 
 ## Environment
 
-- Windows Server 22
+- Windows Server 2022
 - Windows 11
 - VirtualBox
 - Active Directory
